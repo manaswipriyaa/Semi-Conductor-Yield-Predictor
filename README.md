@@ -25,7 +25,7 @@ By applying **feature analysis, data balancing, and machine learning**, this pro
 
 ---
 
-## Methodology
+## Steps Taken: 
 
 ### 1. Data Cleaning
 - Removed timestamp and irrelevant columns.  
@@ -95,3 +95,10 @@ After SMOTE balancing, **Random Forest** achieved the best **F1 and recall** for
 ## Key Takeaway
 This project demonstrates the power of **machine learning in semiconductor manufacturing** — leveraging data-driven insights to improve yield, reduce costs, and strengthen process reliability.  
 It also highlights the importance of **handling data imbalance** and **model interpretability** in real-world applications.
+
+---
+
+## Author 
+Manaswi Priya Maddu
+
+---
