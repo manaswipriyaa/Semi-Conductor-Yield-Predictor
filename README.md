@@ -64,7 +64,9 @@ After SMOTE balancing, **Random Forest** achieved the best **F1 and recall** for
 ---
 
 ## Final Model
+
 **Model Chosen:** Random Forest Classifier  
+
 **Reason:**  
 - Strong recall and balanced F1 for both classes.  
 - Handles correlated, high-dimensional features efficiently.  
