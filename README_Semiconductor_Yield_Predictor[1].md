@@ -21,16 +21,16 @@ In semiconductor fabrication, a small drop in yield can cost millions. Sensors o
 
 ## Approach
 
-1. **EDA** — missing value analysis, class distribution, sensor correlation analysis
-2. **Data Cleaning** — imputed missing values with column medians, dropped near-zero variance features
+1. **EDA** - missing value analysis, class distribution, sensor correlation analysis
+2. **Data Cleaning** - imputed missing values with column medians, dropped near-zero variance features
 3. **Dimensionality Reduction:**
    - Variance threshold feature selection
-   - PCA — reduced 590 features to ~230 components (60% reduction, 95% variance retained)
-4. **Class Imbalance Handling** — SMOTE to oversample the minority (fail) class
+   - PCA - reduced 590 features to ~230 components (60% reduction, 95% variance retained)
+4. **Class Imbalance Handling** - SMOTE to oversample the minority (fail) class
 5. **Model Training:**
    - Random Forest Classifier (best performer)
    - Logistic Regression (baseline)
-6. **Evaluation** — Precision, Recall, F1-score (prioritised recall to minimise missed failures)
+6. **Evaluation** - Precision, Recall, F1-score (prioritised recall to minimise missed failures)
 
 ---
 
