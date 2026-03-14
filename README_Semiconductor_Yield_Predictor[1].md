@@ -1,12 +1,12 @@
 # Semiconductor Yield Predictor
 
-A machine learning pipeline to predict semiconductor manufacturing yield from multi-sensor data — turning raw factory sensor readings into actionable manufacturing intelligence.
+A machine learning pipeline to predict semiconductor manufacturing yield from multi-sensor data - turning raw factory sensor readings into actionable manufacturing intelligence.
 
 ---
 
 ## Problem Statement
 
-In semiconductor fabrication, a small drop in yield can cost millions. Sensors on the production line generate hundreds of measurements per wafer batch. This project builds an ML model that predicts whether a batch will pass or fail quality thresholds — before the process is complete — enabling early intervention.
+In semiconductor fabrication, a small drop in yield can cost millions. Sensors on the production line generate hundreds of measurements per wafer batch. This project builds an ML model that predicts whether a batch will pass or fail quality thresholds - before the process is complete - enabling early intervention.
 
 ---
 
@@ -14,7 +14,7 @@ In semiconductor fabrication, a small drop in yield can cost millions. Sensors o
 
 - **Source:** SECOM Manufacturing Dataset (UCI Machine Learning Repository)
 - **Size:** ~1,567 samples, 590 sensor features
-- **Target:** Binary — Pass (1) / Fail (-1) quality outcome
+- **Target:** Binary - Pass (1) / Fail (-1) quality outcome
 - **Challenge:** High dimensionality, heavy class imbalance (~93% pass rate), missing values
 
 ---
@@ -28,7 +28,7 @@ In semiconductor fabrication, a small drop in yield can cost millions. Sensors o
    - PCA — reduced 590 features to ~230 components (60% reduction, 95% variance retained)
 4. **Class Imbalance Handling** — SMOTE to oversample the minority (fail) class
 5. **Model Training:**
-   - Random Forest Classifier ✅ (best performer)
+   - Random Forest Classifier (best performer)
    - Logistic Regression (baseline)
 6. **Evaluation** — Precision, Recall, F1-score (prioritised recall to minimise missed failures)
 
@@ -103,5 +103,5 @@ jupyter notebook notebooks/semiconductor_yield.ipynb
 ## Author
 
 **Manaswi Priya Maddu**
-B.Tech — AI & Machine Learning | Acharya Nagarjuna University
+B.Tech - AI & Machine Learning | Acharya Nagarjuna University
 [LinkedIn](https://linkedin.com/in/manaswi-priya-2126481b8) | [GitHub](https://github.com/manaswipriyaa)
